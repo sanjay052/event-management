@@ -49,7 +49,9 @@ class DatabaseSeeder extends Seeder
 				'created_at' => Carbon::now(),
 				'updated_at' => Carbon::now()
 	        ]);
-			
+		}
+		
+		foreach (range(1,5) as $index) {			
 			DB::table('event_categories')->insert([
 	            'event_id' => $faker->numberBetween($min = 1, $max = 5),
 	            'category_id' => $faker->numberBetween($min = 1, $max = 5),

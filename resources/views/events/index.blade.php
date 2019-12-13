@@ -40,15 +40,15 @@
 					</div>
 				</form>
 			</div>
-		
-		  <table id="example" class="table table-striped">
+			<div class="clearfix"></div>
+		  <table width="100%" id="example" class="table table-striped">
 			<thead>
 				<tr> 
 				  <td>Name</td> 
 				  <td>Event Date</td> 
 				  <td>Locations</td> 
 				  <td>Categories</td> 
-				  <td width="160px">Actions</td>
+				  <td width="200px">Actions</td>
 				</tr>
 			</thead>
 			<tbody>
